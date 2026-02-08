@@ -1,0 +1,1 @@
+name: staging deploymenton:  workflow_dispatch:jobs:  deploy:    runs-on: ubuntu-latest    steps:      - name: Checkout code        uses: actions/checkout@v3            - name: Deploy to staging        run: echo "Deploying to staging environment..."
